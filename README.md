@@ -11,11 +11,13 @@ Azure CLI (Command-Line Interface) is a powerful tool for managing Azure resourc
 ## Contents
 
 - [Script 1](./get_resgrps.sh): This script will list and store all resource groups and their resources from the choice of subscription.
-
+- [Script 2](./get_rmndiag.sh): This script will list and store all resource group's resources diagnostic settings details and also what settings resources have.
 - ...
 
 ## Usage
 ./get_resgrps.sh
+./get_rmndiag.sh
+
 1. Clone the repository to your local machine:
 
 ```bash
