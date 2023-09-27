@@ -35,10 +35,10 @@ resources() {
 	mkdir -p $(pwd)/resources
 	while read -r line;
 	do
-		az resource list --resource-group ${line} --query "[].{name:name, resource:type}" -o table > $(pwd)/resources/${line}_resources.txt
+		az resource list --resource-group ${line} --query "[].{name:name, resource:type}" -o table | sed '1d' | sed '1d' > $(pwd)/resources/${line}.txt
 	done < resourceGroup.txt	
 }
 
-login
+#login
 resourceGroup
 resources
