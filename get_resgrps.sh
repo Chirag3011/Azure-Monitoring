@@ -39,6 +39,6 @@ resources() {
 	done < resourceGroup.txt	
 }
 
-#login
+login
 resourceGroup
 resources
