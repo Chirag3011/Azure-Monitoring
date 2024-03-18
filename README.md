@@ -14,7 +14,7 @@ Azure CLI (Command-Line Interface) is a powerful tool for managing Azure resourc
 - [Script 2](./get_rmndiag.sh): This script will list and store all resource group's resources diagnostic settings details and also what settings resources have.
 - [Script 3](./get_resid.sh): This script will list all resource group resource's resource id.
 - [Script 4](./json.sh): This script will list resource ids from json file to be imported via terraform.
-- ...
+- [Script 5](./mv_acr_rep_new_acr.sh) This script will use a list of desired repo-name txt as named <acr_chk>
 
 ## Usage
 ./get_resgrps.sh
