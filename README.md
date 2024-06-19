@@ -21,6 +21,7 @@ Azure CLI (Command-Line Interface) is a powerful tool for managing Azure resourc
 ./get_rmndiag.sh
 ./get_resid.sh
 ./json.sh "<json_file_name>"
+./mv_acr_rep_new_acr.sh <acr_chk>
 
 1. Clone the repository to your local machine:
 
