@@ -27,3 +27,19 @@ Azure CLI (Command-Line Interface) is a powerful tool for managing Azure resourc
 
 ```bash
 git clone https://github.com/Chirag3011/Azure-Monitoring.git
+
+## Some aditional info on repo mirroring and remote branch push 
+# Clone the source repository as a bare repository
+git clone --bare https://github.com/mishipay-ltd/python-inventory-common.git
+
+# Navigate into the cloned repository
+cd python-inventory-common.git
+
+# Add the other repository as a remote
+git remote add other-repo https://github.com/other-user/other-repo.git
+
+# Fetch the specific branch from the other repository
+git fetch other-repo branch-name:branch-name
+
+# Push everything to the destination repository
+git push --mirror https://github.com/mishipay-ltd/temp-python-inventory-common.git
