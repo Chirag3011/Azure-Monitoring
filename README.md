@@ -30,7 +30,7 @@ git clone https://github.com/Chirag3011/Azure-Monitoring.git
 
 ## Some aditional info on repo mirroring and remote branch push 
 # Clone the source repository as a bare repository
-git clone --bare https://github.com/mishipay-ltd/python-inventory-common.git
+git clone --bare https://github.com/ltd/inventory.git
 
 # Navigate into the cloned repository
 cd python-inventory-common.git
@@ -42,4 +42,4 @@ git remote add other-repo https://github.com/other-user/other-repo.git
 git fetch other-repo branch-name:branch-name
 
 # Push everything to the destination repository
-git push --mirror https://github.com/mishipay-ltd/temp-python-inventory-common.git
+git push --mirror https://github.com/ltd/temp-inventory.git
